@@ -4,13 +4,21 @@
 
 # Project Structure
  app.py: Flask application for deploying the model on a web server.
+ 
  glove.txt: GloVe file containing pre-trained word embeddings used for text data vectorization.
+ 
  label_encoder.pkl: Pickled file of the LabelEncoder, used to transform text labels into a suitable format for model training.
+ 
  model.pkl: Serialized version of the trained machine learning model ready for predictions.
+ 
  my_data.db: SQLite database file containing the processed email data.
+ 
  project.py: Core machine learning script that includes data preprocessing, training the model, and evaluating performance.
+ 
  requirements.txt: List of Python packages required to run the project.
+ 
  spam.csv: Dataset file containing the spam and ham email messages.
+ 
  vectorizer.pkl: Pickled file of the CountVectorizer, used to convert text data into a format that can be used by the model.
 
 
