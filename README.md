@@ -59,7 +59,7 @@ Contributions to this project are welcome! Please adhere to the following workfl
 5. Create a new Pull Request.
    
 # License
-This project is licensed under the GNU General Public License (GPL) - see the LICENSE file for details.
+This project is licensed under the GNU General Public License (GPL) 3.0 - see the LICENSE file for details.
 
 # Contact
 Developer: Your Name – Siddharth Pal
