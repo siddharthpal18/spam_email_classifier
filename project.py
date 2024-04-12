@@ -23,6 +23,7 @@ import sqlite3
 import spacy
 import nltk
 import pickle
+import plotly
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -40,6 +41,9 @@ from sklearn.naive_bayes import MultinomialNB
 from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.initializers import Constant
 from tensorflow.python.keras.layers import Embedding
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+
 from keras.layers import (LSTM,
                           BatchNormalization,
                           Dense, 
